@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.form_section{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../img/background2.png') center/cover no-repeat fixed;
+    height: 100%;
+}
+.svg-icon{
+    width: 180px;
+    margin:30px 40px;
+}
+.form_section .container{
+    height: 100%;
+}
+.form_section .container form{
+    width: 33%;
+    height:85%;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: relative;
+    top:4rem;
+    left: 34%;
+}
+.form_section .container form .form_body{
+    width: 70%;
+    position: absolute;
+    top:4rem;
+    left: 15%;
+}
+.form_section .container form span{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.form_section .container form h1{
+    color: white;
+    font-size: 29px;
+    font-weight: 600;
+}
+.form_section .container form label{
+    font-size:13px;
+    padding:4px;
+}
+.form_section .container form .number,
+.form_section .container form .password{
+    width: 100%;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: #333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #e50914;
+    color: white;
+}
+.form_section .container form .button{
+    width: 100%;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: #e50914;
+    border:none;
+    color:white;
+    font-size: 18px;
+}
+.form_section .container form .checkbox{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.form_section .container form .checkbox input[type=checkbox] {
+    accent-color: #b3b3b3;
+    border:none;
+    width: 1.1rem;
+    height: 1.1rem;
+    position: relative;
+    vertical-align: middle;
+}
+.form_section .container form .checkbox a,
+.form_section .container form .checkbox span label,
+.form_section .container form p {
+    color: #8c8c8c;;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.form_section .container form p a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+@media screen and (max-width:970px)
+{
+    .form_section .container form{
+        width: 43%;
+        left: 28%;
+    }
+}
+
+@media(max-width:739px){
+    .form_section{
+        background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0, 1)),url('../img/background2.png') center/cover no-repeat fixed;
+        height: 85%;
+        border: 2px solid blue;
+    }
+    .form_section .container form{
+        width: 87%;
+        height:84.5%;
+        border: 2px solid red;
+        top:15%;
+        left: 0;
+        display: block;
+        margin:auto;
+    }
+    .form_section .container form .form_body{
+        width: 100%;
+        top:0;
+        left: 0;
+        border: 1px solid green;;
+    }
+/* 
+    .form_section .container form .number,
+    .form_section .container form .password{
+        width: 100%;
+        border-radius: 3px;
+        padding: 20px;
+        background-color: #333;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 3px solid #e50914;
+        color: white;
+    }
+    .form_section .container form .button{
+        width: 100%;
+        border-radius: 3px;
+        padding: 15px;
+        background-color: #e50914;
+        border:none;
+        color:white;
+        font-size: 18px;
+    } */
+}
