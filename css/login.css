@@ -5,17 +5,17 @@
     font-family: 'Roboto', sans-serif;
 }
 .form_section{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../img/background2.png') center/cover no-repeat fixed;
-    height: 100%;
+    height: 110%;
 }
 .svg-icon{
     width: 180px;
     margin:30px 40px;
 }
-.form_section .container{
-    height: 100%;
+.form_section .main_container{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../img/background2.png') center/cover no-repeat fixed;
+    height: 85%;
 }
-.form_section .container form{
+.form_section .main_container form{
     width: 33%;
     height:85%;
     background-color: rgba(0, 0, 0, 0.75);
@@ -23,28 +23,28 @@
     top:4rem;
     left: 34%;
 }
-.form_section .container form .form_body{
+.form_section .main_container form .form_body{
     width: 70%;
     position: absolute;
     top:4rem;
     left: 15%;
 }
-.form_section .container form span{
+.form_section .main_container form span{
     display: flex;
     flex-direction: column;
     color: white;
 }
-.form_section .container form h1{
+.form_section .main_container form h1{
     color: white;
     font-size: 29px;
     font-weight: 600;
 }
-.form_section .container form label{
+.form_section .main_container form label{
     font-size:13px;
     padding:4px;
 }
-.form_section .container form .number,
-.form_section .container form .password{
+.form_section .main_container form .number,
+.form_section .main_container form .password{
     width: 100%;
     border-radius: 3px;
     padding: 20px;
@@ -55,7 +55,7 @@
     border-bottom: 3px solid #e50914;
     color: white;
 }
-.form_section .container form .button{
+.form_section .main_container form .button{
     width: 100%;
     border-radius: 3px;
     padding: 15px;
@@ -64,12 +64,12 @@
     color:white;
     font-size: 18px;
 }
-.form_section .container form .checkbox{
+.form_section .main_container form .checkbox{
     display:flex;
     flex-direction: row;
     justify-content:space-between;
 }
-.form_section .container form .checkbox input[type=checkbox] {
+.form_section .main_container form .checkbox input[type=checkbox] {
     accent-color: #b3b3b3;
     border:none;
     width: 1.1rem;
@@ -77,15 +77,15 @@
     position: relative;
     vertical-align: middle;
 }
-.form_section .container form .checkbox a,
-.form_section .container form .checkbox span label,
-.form_section .container form p {
+.form_section .main_container form .checkbox a,
+.form_section .main_container form .checkbox span label,
+.form_section .main_container form p {
     color: #8c8c8c;;
     font-size: 14px;
     text-decoration: none;
     margin-top: 1rem;
 }
-.form_section .container form p a{
+.form_section .main_container form p a{
     color:white;
     text-decoration: none;
     font-size: 15px;
@@ -93,7 +93,7 @@
 
 .footer{
     background-color: black;
-    height: 20%;
+    height: 25%;
     color:#737373;
     /* border: 2px solid rebeccapurple; */
 }
@@ -106,7 +106,8 @@
     width: 75%;
     /* border: 2px solid #0de509; */
     height: 70%;
-    margin:10 auto;
+    background-color: black;
+    margin:3% auto;
     font-weight: 300;
     font-size: 14px;
 }
@@ -120,25 +121,25 @@
     padding: 10px;
 }
 .footer .container .copyright{
-    margin:10 auto;
+    margin: 25px auto;
     text-align: center;
 }
 
 @media screen and (max-width:950px)
 {
-    .form_section .container form{
+    .form_section .main_container form{
         width: 43%;
         left: 28%;
     }
 }
 
 @media(max-width:759px){
-    .form_section{
+    .form_section .main_container{
         background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0, 1)),url('../img/background2.png') center/cover no-repeat fixed;
         height: 82%;
         /* border: 2px solid blue; */
     }
-    .form_section .container form{
+    .form_section .main_container form{
         width: 87%;
         height:81.5%;
         /* border: 2px solid red; */
@@ -147,18 +148,18 @@
         display: block;
         margin:auto;
     }
-    .form_section .container form .form_body{
+    .form_section .main_container form .form_body{
         width: 100%;
         top:0;
         left: 0;
         /* border: 1px solid green;; */
     }
-    .form_section .container form .netflix{
-        margin-top: 2rem;
+    .form_section .main_container form .netflix{
+        margin-top: 3rem;
     }
     .footer{
         background-color: black;
-        height: 20%;
+        height: 25%;
         color:#737373;
     }
     .footer hr{
@@ -171,7 +172,7 @@
         width: 95%;
         /* border: 2px solid #0de509; */
         height: 70%;
-        margin:8 auto;
+        margin:10 auto;
         font-weight: 200;
         font-size: 12px;
     }
