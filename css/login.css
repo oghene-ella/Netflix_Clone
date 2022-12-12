@@ -154,7 +154,7 @@
         /* border: 1px solid green;; */
     }
     .form_section .container form .netflix{
-    margin-top: 2rem;
+        margin-top: 2rem;
     }
     .footer{
         background-color: black;
@@ -173,6 +173,7 @@
         height: 70%;
         margin:8 auto;
         font-weight: 200;
+        font-size: 12px;
     }
 }
 
