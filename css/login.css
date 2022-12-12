@@ -17,7 +17,7 @@
 }
 .form_section .main_container form{
     width: 33%;
-    height:85%;
+    min-height:85%;
     background-color: rgba(0, 0, 0, 0.75);
     position: relative;
     top:4rem;
@@ -125,11 +125,21 @@
     text-align: center;
 }
 
-@media screen and (max-width:950px)
+@media screen and (max-width:970px)
 {
     .form_section .main_container form{
         width: 43%;
         left: 28%;
+    }
+    .form_section .main_container form{
+        width: 87%;
+        height: 70%;
+        min-height: 37em;
+        /* border: 2px solid red; */
+        top:15%;
+        left: 0;
+        display: block;
+        margin:auto;
     }
 }
 
@@ -141,7 +151,7 @@
     }
     .form_section .main_container form{
         width: 87%;
-        height:81.5%;
+        min-height:81.5%;
         /* border: 2px solid red; */
         top:15%;
         left: 0;
