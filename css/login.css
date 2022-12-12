@@ -90,7 +90,41 @@
     text-decoration: none;
     font-size: 15px;
 }
-@media screen and (max-width:970px)
+
+.footer{
+    background-color: black;
+    height: 20%;
+    color:#737373;
+    /* border: 2px solid rebeccapurple; */
+}
+.footer hr{
+    background-color: #e50914;
+    border: none;
+    height:1%;
+}
+.footer .container{
+    width: 75%;
+    /* border: 2px solid #0de509; */
+    height: 70%;
+    margin:10 auto;
+    font-weight: 300;
+    font-size: 14px;
+}
+.footer .container .footer_list {
+    display:flex;
+    justify-content: space-between;
+}
+.footer .container .footer_list li, 
+.footer .container .questions{
+    list-style-type: none;
+    padding: 10px;
+}
+.footer .container .copyright{
+    margin:10 auto;
+    text-align: center;
+}
+
+@media screen and (max-width:950px)
 {
     .form_section .container form{
         width: 43%;
@@ -98,16 +132,16 @@
     }
 }
 
-@media(max-width:739px){
+@media(max-width:759px){
     .form_section{
         background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0, 1)),url('../img/background2.png') center/cover no-repeat fixed;
-        height: 85%;
-        border: 2px solid blue;
+        height: 82%;
+        /* border: 2px solid blue; */
     }
     .form_section .container form{
         width: 87%;
-        height:84.5%;
-        border: 2px solid red;
+        height:81.5%;
+        /* border: 2px solid red; */
         top:15%;
         left: 0;
         display: block;
@@ -117,28 +151,28 @@
         width: 100%;
         top:0;
         left: 0;
-        border: 1px solid green;;
+        /* border: 1px solid green;; */
     }
-/* 
-    .form_section .container form .number,
-    .form_section .container form .password{
-        width: 100%;
-        border-radius: 3px;
-        padding: 20px;
-        background-color: #333;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        border-bottom: 3px solid #e50914;
-        color: white;
+    .form_section .container form .netflix{
+    margin-top: 2rem;
     }
-    .form_section .container form .button{
-        width: 100%;
-        border-radius: 3px;
-        padding: 15px;
+    .footer{
+        background-color: black;
+        height: 20%;
+        color:#737373;
+    }
+    .footer hr{
         background-color: #e50914;
-        border:none;
-        color:white;
-        font-size: 18px;
-    } */
+        border: none;
+        height:1%;
+    }
+
+    .footer .container{
+        width: 95%;
+        /* border: 2px solid #0de509; */
+        height: 70%;
+        margin:8 auto;
+        font-weight: 200;
+    }
 }
+
