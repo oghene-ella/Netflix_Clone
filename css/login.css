@@ -5,22 +5,22 @@
     font-family: 'Roboto', sans-serif;
 }
 .form_section{
-    height: 105%;
+    height: 115%;
 }
 .svg-icon{
     width: 180px;
-    margin:30px 40px;
+    margin:30px 50px;
 }
 .form_section .main_container{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../img/background2.png') center/cover no-repeat fixed;
-    height: 80%;
+    height: 100%;
 }
 .form_section .main_container form{
     width: 33%;
-    min-height:86%;
+    min-height:70%;
     background-color: rgba(0, 0, 0, 0.75);
     position: relative;
-    top:4rem;
+    /* top:4rem; */
     left: 34%;
 }
 .form_section .main_container form .form_body{
@@ -93,7 +93,7 @@
 
 .footer{
     background-color: black;
-    height: 25%;
+    height: 20%;
     color:#737373;
     /* border: 2px solid rebeccapurple; */
 }
@@ -103,11 +103,11 @@
     height:1%;
 }
 .footer .container{
-    width: 75%;
+    width: 60%;
     /* border: 2px solid #0de509; */
-    height: 70%;
+    height: 75%;
     background-color: black;
-    margin:3% auto;
+    margin:1% auto;
     font-weight: 300;
     font-size: 14px;
 }
@@ -121,7 +121,7 @@
     padding: 10px;
 }
 .footer .container .copyright{
-    margin: 25px auto;
+    margin: 15px auto;
     text-align: center;
 }
 
@@ -133,16 +133,16 @@
     }
     .form_section .main_container form{
         width: 47%;
-        height: 65%;
+        height: 60%;
         min-height: 37em;
         /* border: 2px solid red; */
-        top:7%;
+        top:5%;
         left: 0;
         display: block;
         margin:auto;
     }
     .footer{
-        height: 25%;
+        height: 20%;
     }
 }
 
@@ -154,9 +154,9 @@
     }
     .form_section .main_container form{
         width: 87%;
-        min-height:71.5%;
+        min-height:70%;
         /* border: 2px solid red; */
-        top:15%;
+        top:5%;
         left: 0;
         display: block;
         margin:auto;
@@ -172,7 +172,7 @@
     }
     .footer{
         background-color: black;
-        height: 25%;
+        height: 20%;
         color:#737373;
     }
     .footer hr{
