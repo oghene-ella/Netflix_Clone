@@ -133,13 +133,16 @@
     }
     .form_section .main_container form{
         width: 47%;
-        height: 70%;
+        height: 65%;
         min-height: 37em;
         /* border: 2px solid red; */
         top:15%;
         left: 0;
         display: block;
         margin:auto;
+    }
+    .footer{
+        height: 20%;
     }
 }
 
@@ -151,7 +154,7 @@
     }
     .form_section .main_container form{
         width: 87%;
-        min-height:81.5%;
+        min-height:71.5%;
         /* border: 2px solid red; */
         top:15%;
         left: 0;
