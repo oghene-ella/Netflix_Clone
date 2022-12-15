@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.svg-icon{
+    width: 130px;
+    margin:30px 60px;
+}
+
+/* css for the overall div */
+.container{
+    max-height: 150vh;
+    border: 2px solid rgb(192, 200, 47);
+    width: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* css for this first div in the first section */
+.container .first_section{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)),url('../img/background3.jpeg') center/cover no-repeat fixed;
+    max-height: 90vh;
+    /* uncomment to check */
+    border:2px solid green;
+}
+
+/* css for the navbar */
+.container .first_section .navbar {
+    /* uncomment to check */
+    /* border: 2px solid paleturquoise; */
+    width: 100%;
+    max-height: 20vh;
+}
+
+/* css for the side navbar */
+.container .first_section .navbar .side{
+    /* uncomment to check */
+    /* border: 2px solid rgb(155, 233, 9); */
+    width:20%;
+    float: right;
+    margin:25px 60px;
+}
+.container .first_section .navbar .side select,
+.container .first_section .navbar .side button{
+    border-radius: 3px;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    width: 45%;
+}
+.container .first_section .navbar .side select{
+    border:1px solid #e50914; 
+    background-color: transparent;
+    margin-right: 20px;
+}
+.container .first_section .navbar .side button{
+    background-color: #e50914;
+    border: none;
+}
+
+/* css for this second div in the first section*/
+.container .second_container{
+    height:70vh;
+    flex-direction:column;
+    color: white;
+    /* uncomment to check */
+    /* border: 2px solid rgb(255, 0, 225); */
+    gap: 30px;
+}
+.container .second_container, 
+.container .second_container .span{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container .second_container .headers{
+    /* uncomment to check */
+    /* border: 2px solid blue; */
+}
+.container .second_container h1{ 
+    font-size: 50px;
+}
+.container .second_container h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.container .second_container p{
+    font-size: 20px;
+}
+.container .second_container .span{
+    /* uncomment to check */
+    /* border: 2px solid yellowgreen; */
+    flex-direction:row;
+    margin:0  auto;
+}
+.container .second_container .email{
+    color: rgb(255, 255, 255);
+    border-radius: 1px 0px 0px 1px;
+    background-color: transparent;
+    border: 1px solid #e50914;
+    padding: 24.5px;
+    width: 33%; 
+}
+.container .second_container .email::placeholder{
+    color: rgb(255, 255, 255);
+}
+.container .second_container .submit{
+    width: 12%;
+    padding: 20px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.container hr{
+    background-color: #e5091478;
+    border: none;
+    height:1%;
+}
+/* second section */
+.container .container1{
+    height: 60vh;
+    border:2px solid rgb(0, 36, 128);
+    background-color: black;
+    color: white;
+}
+.container .container1 section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.container .container1 section .video_cont1{
+    display: flex;
+    flex-direction: row;
+}
+.container .container1 section .video_cont1 img{
+    width: 70vh;
+    position: absolute;
+}
+.container .container1 section .video_cont1 video{
+    width: 53.5vh;
+    z-index: 0.4;
+    margin: 84px 73px;
+}
+
+
+
+
+
+
+
+/* .container .container2{
+    height: 60%;
+    border:2px solid rgb(231, 203, 19);
+} */
+/* .container .container3{
+    height: 40%;
+    border:2px solid rgb(122, 0, 128);
+} */
+/* .container .container4{
+    height: 80%;
+    border:2px solid rgb(255, 84, 10);
+} */
+/* .container .container5{
+    height: 120%;
+    border:2px solid rgb(2, 221, 229);
+} */
+/* .container .footer{
+    height: 60%;
+    border:2px solid rgb(255, 0, 51);
+}  */
