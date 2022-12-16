@@ -10,7 +10,7 @@
 
 /* css for the overall div */
 .container{
-    max-height: 150vh;
+    max-height: 390vh;
     border: 2px solid rgb(192, 200, 47);
     width: auto;
     font-family: 'Roboto', sans-serif;
@@ -116,12 +116,15 @@
 }
 
 .container hr{
-    background-color: #e5091478;
+    background-color: #a86064;
     border: none;
     height:1%;
 }
 /* second section */
-.container .container1{
+.container .container1,
+.container .container2,
+.container .container3,
+.container .container4{
     height: 60vh;
     border:2px solid rgb(0, 36, 128);
     background-color: black;
@@ -147,20 +150,80 @@
     margin: 84px 73px;
 }
 
+/* third section */
+.container .container2 section,
+.container .container3 section,
+.container .container4 section{
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin:40px auto; */
+    
+}
+
+.container .container2 section .img_cont1 img,
+.container .container3 section .img_cont2 img{
+    width: 65vh;
+    margin: auto;
+}
+
+/* fourth section */
+.container .container4 section .img_cont3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+}
+
+.container .container4 section .img_cont3 img{
+    width: 60vh;
+    margin: auto;
+}
+.container .container4 section .img_cont3 .downloadable{
+    width: 20vw;
+    height: 10.5vh;
+    border: 2px solid #585858;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    bottom: 5%;
+
+}
+.container .container4 section .img_cont3 .downloadable img{
+    width: 47px;
+}
+.container .container4 section .img_cont3 .downloadable .img{
+    margin: 10px;
+}
+.container .container4 section .img_cont3 .downloadable .download{
+    margin-right: 10px;
+}
+
+/* headers for the first, second, third and fourth sections */
+
+.container .container1 h1,
+.container .container2 h1,
+.container .container3 h1,
+.container .container4 h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.container .container1 h3,
+.container .container2 h3,
+.container .container3 h3,
+.container .container4 h3
+{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
 
 
-
-
-
-
-/* .container .container2{
-    height: 60%;
-    border:2px solid rgb(231, 203, 19);
-} */
-/* .container .container3{
-    height: 40%;
-    border:2px solid rgb(122, 0, 128);
-} */
 /* .container .container4{
     height: 80%;
     border:2px solid rgb(255, 84, 10);
