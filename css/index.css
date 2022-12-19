@@ -227,9 +227,26 @@
     height: 120vh;
     border:2px solid rgb(2, 221, 229);
     background-color: black;
+    color: white;
 }
 .container .footer{
     height: 50vh;
     border:2px solid rgb(255, 0, 51);
     background-color: black;
 } 
+.container .footer button{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #e50914;
+    border: none;
+    float: right;
+}
+.container .footer button a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.container .footer button:hover{
+    background-color: #e50914f1;
+}
