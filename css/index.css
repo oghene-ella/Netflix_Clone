@@ -10,7 +10,7 @@
 
 /* css for the overall div */
 .container{
-    max-height: 390vh;
+    max-height: 560vh;
     border: 2px solid rgb(192, 200, 47);
     width: auto;
     font-family: 'Roboto', sans-serif;
@@ -133,7 +133,7 @@
 .container .container1 section{
     display: flex;
     position: relative;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .container .container1 section .video_cont1{
@@ -157,7 +157,7 @@
     height: 60vh;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
     /* margin:40px auto; */
     
@@ -223,16 +223,13 @@
     line-height: 2rem;
 }
 
-
-/* .container .container4{
-    height: 80%;
-    border:2px solid rgb(255, 84, 10);
-} */
-/* .container .container5{
-    height: 120%;
+.container .container5{
+    height: 120vh;
     border:2px solid rgb(2, 221, 229);
-} */
-/* .container .footer{
-    height: 60%;
+    background-color: black;
+}
+.container .footer{
+    height: 50vh;
     border:2px solid rgb(255, 0, 51);
-}  */
+    background-color: black;
+} 
