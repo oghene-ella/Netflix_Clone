@@ -305,6 +305,7 @@
 }
 
 .container .footer{
+    color:rgb(115, 115, 115);
     height: 50vh;
     border:2px solid rgb(255, 0, 51);
     background-color: black;
@@ -312,11 +313,14 @@
 
 .container .footer button{
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    background-color: #e50914;
+    width: 75px;
+    height: 75px;
+    background-color: #e5091443;
     border: none;
-    float: right;
+    position: fixed;
+    bottom: 5%;
+    left: 92%;
+    /* z-index: 0.9; */
 }
 .container .footer button a{
     color: white;
@@ -324,5 +328,5 @@
     font-size: 16px;
 }
 .container .footer button:hover{
-    background-color: #e50914f1;
+    background-color: #e5091472;
 }
