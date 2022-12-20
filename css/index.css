@@ -21,7 +21,7 @@
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)),url('../img/background3.jpeg') center/cover no-repeat fixed;
     max-height: 90vh;
     /* uncomment to check */
-    border:2px solid green;
+    /* border:2px solid green; */
 }
 
 /* css for the navbar */
@@ -36,7 +36,7 @@
 .container .first_section .navbar .side{
     /* uncomment to check */
     /* border: 2px solid rgb(155, 233, 9); */
-    width:20%;
+    width:30%;
     float: right;
     margin:25px 60px;
 }
@@ -46,16 +46,19 @@
     color: white;
     padding: 12px;
     text-decoration: none;
-    width: 45%;
+    width: 30%;
+    cursor: pointer;
 }
-.container .first_section .navbar .side select{
-    border:1px solid #e50914; 
+.container .first_section .navbar .side select,
+.container .first_section .navbar .side .mybtn{
+    border: 1px solid #e50914; 
     background-color: transparent;
-    margin-right: 20px;
 }
+
 .container .first_section .navbar .side button{
     background-color: #e50914;
     border: none;
+    margin-left: 15px;
 }
 
 /* css for this second div in the first section*/
@@ -102,6 +105,7 @@
     border: 1px solid #e50914;
     padding: 24.5px;
     width: 33%; 
+    cursor: pointer;
 }
 .container .second_container .email::placeholder{
     color: rgb(255, 255, 255);
@@ -113,10 +117,12 @@
     border: none;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .container hr{
-    background-color: #a86064;
+    /* background-color: #a86064; */
+    background-color: rgb(80, 0, 0);
     border: none;
     height:1%;
 }
@@ -126,7 +132,8 @@
 .container .container3,
 .container .container4{
     height: 60vh;
-    border:2px solid rgb(0, 36, 128);
+    /* uncomment this to check */
+    /* border:2px solid rgb(0, 36, 128); */
     background-color: black;
     color: white;
 }
@@ -223,17 +230,86 @@
     line-height: 2rem;
 }
 
-.container .container5{
-    height: 120vh;
-    border:2px solid rgb(2, 221, 229);
+.container .container5 {
+    max-height: 120vh;
+    /* border:2px solid rgb(2, 221, 229); */
     background-color: black;
     color: white;
 }
+.container .container5 section{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.container .container5 section h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 70px;
+}
+.container .container5 section .section{
+    /* border: 2px solid #e50914; */
+    width: 55vw;
+    height: 60vh;
+    margin: auto;
+}
+.container .container5 section .section span h2{
+    display: inline;
+}
+.container .container5 section .section span{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    background-color: rgb(48, 48, 48);
+}
+
+.container .container5 section .body_email{
+    width: 70vw;
+    height: 20vh;
+    /* border: 2px solid rgb(0, 94, 255); */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+    font-size: 20px;
+}
+.container .container5 .body_email .span{
+    /* border: 2px solid green; */
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+.container .container5 span .email{
+    color: rgb(255, 255, 255);
+    border-radius: 1px 0px 0px 1px;
+    background-color: transparent;
+    border: 1px solid #e50914;
+    padding: 25px;
+    width: 33vw; 
+    cursor: pointer;
+}
+.container .container5 span .email::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.container .container5 span .submit{
+    width: 12vw;
+    padding: 20px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .container .footer{
     height: 50vh;
     border:2px solid rgb(255, 0, 51);
     background-color: black;
 } 
+
 .container .footer button{
     border-radius: 50%;
     width: 80px;
