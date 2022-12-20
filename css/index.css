@@ -11,7 +11,7 @@
 /* css for the overall div */
 .container{
     max-height: 550vh;
-    border: 2px solid rgb(192, 200, 47);
+    /* border: 2px solid rgb(192, 200, 47); */
     width: auto;
     font-family: 'Roboto', sans-serif;
 }
@@ -312,7 +312,7 @@
 .container .footer{
     color:rgb(115, 115, 115);
     height: 40vh;
-    border:2px solid rgb(255, 0, 51);
+    /* border:2px solid rgb(255, 0, 51); */
     background-color: black;
     display: flex;
     flex-direction: column;
