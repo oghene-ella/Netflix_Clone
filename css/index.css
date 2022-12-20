@@ -10,7 +10,7 @@
 
 /* css for the overall div */
 .container{
-    max-height: 560vh;
+    max-height: 550vh;
     border: 2px solid rgb(192, 200, 47);
     width: auto;
     font-family: 'Roboto', sans-serif;
@@ -230,6 +230,8 @@
     line-height: 2rem;
 }
 
+
+/* fifth section */
 .container .container5 {
     max-height: 120vh;
     /* border:2px solid rgb(2, 221, 229); */
@@ -263,6 +265,7 @@
     background-color: rgb(48, 48, 48);
 }
 
+/* email body */
 .container .container5 section .body_email{
     width: 70vw;
     height: 20vh;
@@ -304,13 +307,43 @@
     cursor: pointer;
 }
 
+
+/* footer body */
 .container .footer{
     color:rgb(115, 115, 115);
-    height: 50vh;
+    height: 40vh;
     border:2px solid rgb(255, 0, 51);
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 } 
 
+/* footer */
+.container .footer p{
+    padding-left: 5.5%;
+    /* border: 2px solid red; */
+    width: 70vw;
+}
+.container .footer p:last-child{
+    font-size: 12px;
+    font-weight: 200;
+}
+.container .footer .footer_list{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 70vw;
+}
+.container .footer .footer_list ul,
+.container .footer .footer_list ul li {
+    list-style-type: none;
+    padding:9px 20px;
+    font-size: 12px;
+}
+
+/* the back button */
 .container .footer button{
     border-radius: 50%;
     width: 75px;
