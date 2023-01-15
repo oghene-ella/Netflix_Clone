@@ -76,7 +76,7 @@ body {
   padding-left: 50px;
   display: flex;
   overflow-x: scroll;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .original__movies::-webkit-scrollbar {
@@ -84,7 +84,7 @@ body {
 }
 
 .original__movies img {
-  margin-right: 10px;
+  margin-right: 15px;
   height: 250px;
   width: auto;
 }
@@ -101,7 +101,7 @@ body {
 }
 
 .movies__container img {
-  margin-right: 10px;
+  margin-right: 15px;
   width: 200px;
 }
 
@@ -165,7 +165,8 @@ img {
 
 .netflixOriginals h2,
 .movies__header h2 {
-  padding-left: 30px;
+  /* padding-left: 50px; */
+  padding: 20px 50px;
 }
 
 .featured h2 {
@@ -203,9 +204,11 @@ img {
 }
 
 .button__play i {
-  margin-right: 6px;
+  margin-right: 10px;
 }
-
+button i {
+  margin-right: 10px;
+}
 .featured .featured__description {
   max-width: 360px;
   font-weight: 400;
