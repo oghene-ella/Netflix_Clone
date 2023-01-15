@@ -10,7 +10,7 @@
 
 /* css for the overall div */
 .container{
-    max-height: 550vh;
+    max-height: 560vh;
     /* border: 2px solid rgb(192, 200, 47); */
     width: auto;
     font-family: 'Roboto', sans-serif;
@@ -233,7 +233,7 @@
 
 /* fifth section */
 .container .container5 {
-    max-height: 120vh;
+    max-height: 130vh;
     /* border:2px solid rgb(2, 221, 229); */
     background-color: black;
     color: white;
@@ -241,7 +241,7 @@
 .container .container5 section{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 25px;
 }
 .container .container5 section h1{
     text-align: center;
@@ -261,7 +261,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     background-color: rgb(48, 48, 48);
 }
 
@@ -323,7 +323,7 @@
 
 /* footer */
 .container .footer p{
-    padding-left: 5.5%;
+    padding-left: 5%;
     /* border: 2px solid red; */
     width: 70vw;
 }
@@ -362,4 +362,66 @@
 }
 .container .footer button:hover{
     background-color: #e5091472;
+}
+
+
+/* MEDIA QUERYYYYYYY */
+@media(max-width:1140px){
+    .container .container1 section,
+    .container .container2 section,
+    .container .container3 section,
+    .container .container4 section
+    {
+        max-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    .container .container1 section{
+        gap:30px;
+    }
+    .container .container1 section .header_cont1 h1,
+    .container .container2 section .header_cont2 h1,
+    .container .container3 section .header_cont2 h1,
+    .container .container4 section .header_cont2 h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .container .container1 section .header_cont1 h3,
+    .container .container2 section .header_cont2 h3,
+    .container .container3 section .header_cont2 h3,
+    .container .container4 section .header_cont2 h3
+    {
+        font-size: 25px;
+        text-align:center;
+    }
+    .container .container1 section .video_cont1 img,
+    .container .container2 section .img_cont1 img,
+    .container .container3 section .img_cont2 img,
+    .container .container4 section .img_cont3 img
+    {
+        width: 38vw;
+    }
+    .container .container1 section .video_cont1 .video{
+        width: 27.5vw;
+        /* margin:8px; */
+        margin:69px 57px;
+    }
+
+    .container .container4 section .img_cont3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        position: relative;
+    }
+    .container .container4 section .img_cont3 .downloadable{
+        width: 27vw;
+        height: 9vh;  
+    
+    }
+    .container .container1 section,
+    .container .container3 section{
+        flex-direction: column-reverse;
+    }
 }
