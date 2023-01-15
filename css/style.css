@@ -136,7 +136,7 @@ img {
 }
 
 .featured {
-  height: 650px;
+  height: 700px;
   position: relative;
   background-image: url('../img/images.png');
   background-size: cover;
