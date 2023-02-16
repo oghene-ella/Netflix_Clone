@@ -32,14 +32,14 @@ body {
   cursor: pointer;
 }
 .navbar .side .mybtn{
-  border: 1px solid #e50914; 
+  border: 1px solid #0081f9; 
   background-color: white;
-  color: red;
+  color: #0081f9;
 
 }
 
 .navbar .side button{
-  background-color: #e50914;
+  background-color: #0081f9;
   border: none;
   margin-left: 15px;
 }

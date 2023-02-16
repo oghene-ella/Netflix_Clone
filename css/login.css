@@ -52,14 +52,14 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 3px solid #e50914;
+    border-bottom: 3px solid #0081f9;
     color: white;
 }
 .form_section .main_container form .button{
     width: 100%;
     border-radius: 3px;
     padding: 15px;
-    background-color: #e50914;
+    background-color: #0081f9;
     border:none;
     color:white;
     font-size: 18px;
@@ -98,7 +98,7 @@
     /* border: 2px solid rebeccapurple; */
 }
 .footer hr{
-    background-color: #e50914;
+    background-color: #0081f9;
     border: none;
     height:1%;
 }
@@ -176,7 +176,7 @@
         color:#737373;
     }
     .footer hr{
-        background-color: #e50914;
+        background-color: #0081f9;;
         border: none;
         height:1%;
     }

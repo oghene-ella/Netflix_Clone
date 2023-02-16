@@ -51,12 +51,12 @@
 }
 .container .first_section .navbar .side select,
 .container .first_section .navbar .side .mybtn{
-    border: 1px solid #e50914; 
+    border: 1px solid #0081f9; 
     background-color: transparent;
 }
 
 .container .first_section .navbar .side button{
-    background-color: #e50914;
+    background-color: #0081f9;
     border: none;
     margin-left: 15px;
 }
@@ -102,7 +102,7 @@
     color: rgb(255, 255, 255);
     border-radius: 1px 0px 0px 1px;
     background-color: transparent;
-    border: 1px solid #e50914;
+    border: 1px solid #0081f9;
     padding: 24.5px;
     width: 33%; 
     cursor: pointer;
@@ -113,7 +113,7 @@
 .container .second_container .submit{
     min-width: 12%;
     padding: 20px;
-    background-color: #e50914;
+    background-color: #0081f9;
     border: none;
     color: white;
     font-size: 20px;
@@ -122,7 +122,7 @@
 
 .container hr{
     /* background-color: #a86064; */
-    background-color: rgb(80, 0, 0);
+    background-color: rgb(0, 40, 80);
     border: none;
     height:1%;
 }
@@ -288,7 +288,7 @@
     color: rgb(255, 255, 255);
     border-radius: 1px 0px 0px 1px;
     background-color: transparent;
-    border: 1px solid #e50914;
+    border: 1px solid #0081f9;
     padding: 25px;
     width: 33vw; 
     cursor: pointer;
@@ -300,7 +300,7 @@
 .container .container5 span .submit{
     min-width: 12vw;
     padding: 20px;
-    background-color: #e50914;
+    background-color: #0081f9;
     border: none;
     color: white;
     font-size: 20px;
@@ -348,7 +348,7 @@
     border-radius: 50%;
     width: 75px;
     height: 75px;
-    background-color: #e5091443;
+    background-color: #0081f9;;
     border: none;
     position: fixed;
     bottom: 5%;
@@ -361,7 +361,7 @@
     font-size: 16px;
 }
 .container .footer button:hover{
-    background-color: #e5091472;
+    background-color: #0081f9;
 }
 
 
