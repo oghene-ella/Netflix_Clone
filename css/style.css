@@ -221,3 +221,14 @@ button i {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width:1055px)
+{
+  .navbar{
+    border:1px solid red;
+    width:100%;
+  }
+  .navbar .side{
+    border:1px solid green;
+  }
+}
